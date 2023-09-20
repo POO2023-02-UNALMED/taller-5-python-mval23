@@ -16,9 +16,13 @@ class Animal:
         from zooAnimales.reptil import Reptil
         from zooAnimales.pez import Pez
         from zooAnimales.anfibio import Anfibio
-        return "Mamiferos : {}\nAves : {}\nReptiles : {}\nPeces : {}\nAnfibios : {}".format(
-            Mamifero.cantidadMamiferos(), Ave.cantidadAves(), Reptil.cantidadReptiles(), Pez.cantidadPeces(),
-            Anfibio.cantidadAnfibios())
+        return "Mamíferos: {}\nAves: {}\nReptiles: {}\nPeces: {}\nAnfibios: {}".format(
+        Mamifero.cantidadMamiferos(),
+            Ave.cantidadAves(),
+            Reptil.cantidadReptiles(),
+            Pez.cantidadPeces(),
+            Anfibio.cantidadAnfibios()
+            )
 
     def toString(self):
         if self._zona == None:
